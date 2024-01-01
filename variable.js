@@ -1,2 +1,15 @@
-var Name = 'xz';
-console.log(Name)
+// Number Variable:============
+var price = 12;
+var age = 17;
+var temperature = 38;
+var weight = 10;
+var height = 15;
+var marks = 20;
+// console.log(Name, price, age, temperature, weight, height, marks);
+
+// String Variable:===========
+var person = "Karim Uddin";
+var location = "Chattagram";
+var special = "sharuk khan";
+
+console.log(person, location, special);
