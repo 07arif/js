@@ -51,10 +51,4 @@ var UserHomeAddress= 'chattogram'
 
 
 
-
-
-
-
-
-
 */
