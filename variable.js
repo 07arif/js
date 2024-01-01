@@ -13,3 +13,10 @@ var location = "Chattagram";
 var special = "sharuk khan";
 
 console.log(person, location, special);
+
+// Boolean Variable:============
+var serious = true;
+var isFullmarks = true;
+var isSingle = false;
+
+console.log(serious, isFullmarks, isSingle);
