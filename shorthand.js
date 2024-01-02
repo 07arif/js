@@ -44,4 +44,4 @@ var age2 = 15;
 age2--;
 console.log(age2);
 
-// --means you are deducting 1 from the existing
+// --means you are deducting 1 from the existing value
