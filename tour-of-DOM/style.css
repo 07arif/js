@@ -4,3 +4,6 @@ h1{
 #fruits-title{
     color: blueviolet;
 }
+.fruits-container li{
+    color: rgb(38, 154, 221);
+}
