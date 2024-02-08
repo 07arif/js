@@ -7,9 +7,21 @@
   </head>
   <body>
     <h1 onclick="console.log('I am clicked')">DOM special events</h1>
+    <h2>Events from inline HTML</h2>
     <button onclick="console.log(7)">Click me</button>
     <button onclick="console.log(8)">Another button</button>
-
+    <!-- option: 1 -->
+    <button onclick="document.body.style.backgroundColor='yellow'">
+      Make Yellow
+    </button>
+    <br />
+    <h1>Events form js</h1>
+    <!-- option: 2 -->
+    <button onclick="makeRed()">Make Red</button>
+    <!-- option: 3 -->
+    <button id="blue-btn">Make Blue</button>
+    <!-- option: 3 another -->
+    <button id="purple-btn">Make Purple</button>
     <script src="/js/events.js"></script>
   </body>
 </html>
