@@ -8,8 +8,15 @@
   <body>
     <h1>Final dom handler</h1>
     <h3 id="handler-status">Default TExt</h3>
-
+    <p id="input-text">default input text</p>
+    <br />
+    <input id="input-field" type="text" />
+    <br />
+    <button id="btn-update">update</button>
+    <br />
+    <br />
     <button onclick="handleOnclick()">handle event by onclick function</button>
+    <button id="event-listener">Handle event by addEventListener</button>
 
     <script>
       function handleOnclick() {
@@ -17,6 +24,26 @@
         const handlerStatus = document.getElementById('handler-status');
         handlerStatus.innerText = 'Handled by function attached on onclick';
       }
+      //   opt:2
+      document
+        .getElementById('event-listener')
+        .addEventListener('click', function () {
+          const handlerStatus = document.getElementById('handler-status');
+          handlerStatus.innerText = 'Text updated by add event listener';
+        });
+      // opt 2 recap
+
+      document
+        .getElementById('btn-update')
+        .addEventListener('click', function () {
+          //   console.log('update button clicked');
+          const inputField = document.getElementById('input-field');
+          //   console.log(inputField.value);
+          const inputText = inputField.value;
+
+          const p = document.getElementById('input-text');
+          p.innerText = inputText;
+        });
     </script>
   </body>
 </html>
