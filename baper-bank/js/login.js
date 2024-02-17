@@ -13,8 +13,9 @@ document.getElementById('btn-submit').addEventListener('click', function () {
   // console.log(password);
   //DANGER::: DO NOT VERIFY EMAIL PASSWORD ON THE CLIENT SIDE.
   if (email === 'sontan@bap.com' && password === 'secret') {
-    console.log('valid user');
+    window.location.href = 'bank.html';
   } else {
-    console.log('invalid user');
+    // console.log('invalid user');
+    alert('Invalid user');
   }
 });
