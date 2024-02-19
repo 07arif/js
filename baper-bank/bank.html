@@ -27,7 +27,7 @@
             class="justify-center rounded-md bg-green-500 px-6 py-5 text-sm font-semibold leading-6 text-white shadow-sm"
           >
             <h4 class="text-2xl">Deposit</h4>
-            <h2 class="text-5xl">$00</h2>
+            <h2 class="text-5xl">$<span id="deposit-total">00</span></h2>
           </div>
           <div
             class="justify-center rounded-md bg-yellow-500 px-6 py-5 text-sm font-semibold leading-6 text-white shadow-sm"
@@ -49,7 +49,7 @@
           <div
             class="justify-center rounded-md bg-fuchsia-500 px-6 py-5 text-sm font-semibold leading-6 text-white shadow-sm"
           >
-            <h4 class="text-2xl" id="btn-deposit">Please Deposit</h4>
+            <h4 class="text-2xl">Please Deposit</h4>
             <input
               id="deposit-field"
               type="text"
@@ -85,5 +85,6 @@
         </div>
       </section>
     </div>
+    <script src="/js/deposit.js"></script>
   </body>
 </html>
